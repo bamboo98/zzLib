@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<AutoRepairNeedTickTypeNormal>def错误[{0}]自动修复组件需要设置字段TickType为Normal或Rare</AutoRepairNeedTickTypeNormal>
+	<DEBUG_MODE>调试模式</DEBUG_MODE>
+	<DEBUG_MODE_TOOLTIP>输出更详细的日志,以及一些奇怪的功能权限</DEBUG_MODE_TOOLTIP>
+</LanguageData>

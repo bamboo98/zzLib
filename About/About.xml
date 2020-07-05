@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>zzLib</name>
+	<packageId>zhuzi.Lib</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<author>竹子菌</author>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<description>
+	添加了一个自动修复组件(Comp)
+	组件类
+	zzLib.Comp.CompProperties_AutoRepair
+
+	
+	
+
+	</description>
+</ModMetaData>

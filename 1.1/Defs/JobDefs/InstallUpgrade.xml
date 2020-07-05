@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<DesignationDef>
+		<defName>zzInstallUpgrade</defName>
+		<texturePath>UI/RepairOn</texturePath>
+		<targetType>Thing</targetType>
+		<designateCancelable>false</designateCancelable>
+	</DesignationDef>
+
+
+	<JobDef>
+		<defName>zzInstallUpgrade</defName>
+		<driverClass>zzLib.AI.JobDriver_InstallUpgrade</driverClass>
+		<reportString>安装插件</reportString>
+	</JobDef>
+
+
+	<WorkGiverDef>
+		<defName>zzInstallUpgrade</defName>
+		<label>安装插件</label>
+		<giverClass>zzLib.AI.WorkGiver_InstallUpgrade</giverClass>
+		<workType>Construction</workType>
+		<priorityInType>200</priorityInType>
+		<verb>upgrade</verb>
+		<gerund>upgrading</gerund>
+	</WorkGiverDef>
+
+</Defs>

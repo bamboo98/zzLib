@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StatDef Name="zzBaseMiscStat" Abstract="True">
+		<category>Building</category>
+		<defaultBaseValue>0</defaultBaseValue>
+		<toStringStyle>FloatOne</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<showOnDefaultValue>false</showOnDefaultValue>
+	</StatDef>
+
+
+	<StatDef ParentName="zzBaseMiscStat">
+		<defName>zzPowerConsumption</defName>
+		<label>基础耗电量</label>
+		<description>护盾的基础耗电量,实际耗电量=基础耗电量*耗电量乘数*护盾升级修正系数</description>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>FloatMaxOne</toStringStyle>
+    	<displayPriorityInCategory>250</displayPriorityInCategory>
+	</StatDef>
+
+	<StatDef ParentName="zzBaseMiscStat">
+		<defName>zzPowerConsumptionRate</defName>
+		<label>耗电量乘数</label>
+		<description>护盾的耗电量乘数,实际耗电量=基础耗电量*耗电量乘数*护盾升级修正系数</description>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+    	<displayPriorityInCategory>240</displayPriorityInCategory>
+	</StatDef>
+
+
+</Defs>
