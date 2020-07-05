@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+<!-- 
 
     <ThingDef ParentName="BuildingBase">
         <defName>AutoRepairWall</defName>
@@ -169,12 +169,12 @@
                     <li>Minimal</li>
                 </focusTypes>
             </li>
-            <!-- <li Class="CompProperties_Power">
+            <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
                 <transmitsPower>true</transmitsPower>
                 <basePowerConsumption>20</basePowerConsumption>
                 <shortCircuitInRain>false</shortCircuitInRain>
-            </li> -->
+            </li>
             <li Class="zzLib.Comp.CompProperties_AutoRepair"></li>
         </comps>
         <damageMultipliers>
@@ -184,7 +184,7 @@
             </li>
         </damageMultipliers>
         <designationHotKey>Misc3</designationHotKey>
-    </ThingDef>
+    </ThingDef> -->
 
 
 </Defs>

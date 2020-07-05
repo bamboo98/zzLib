@@ -3,4 +3,21 @@
 	<AutoRepairNeedTickTypeNormal>def错误[{0}]自动修复组件需要设置字段TickType为Normal或Rare</AutoRepairNeedTickTypeNormal>
 	<DEBUG_MODE>调试模式</DEBUG_MODE>
 	<DEBUG_MODE_TOOLTIP>输出更详细的日志,以及一些奇怪的功能权限</DEBUG_MODE_TOOLTIP>
+
+	<Upgrade_statModifierCategory>完成升级</Upgrade_statModifierCategory>
+	<Upgrade_labelPrefix>升级：{0}</Upgrade_labelPrefix>
+	<Upgrade_descriptionEffects>效果：</Upgrade_descriptionEffects>
+	<Upgrade_descriptionCost>所需材料：</Upgrade_descriptionCost>
+	<Upgrade_prerequisites>先决条件：</Upgrade_prerequisites>
+	<Upgrade_prerequisitesResearch>研究（{0}）</Upgrade_prerequisitesResearch>
+	<Upgrade_prerequisitesUpgrade>升级（{0}）</Upgrade_prerequisitesUpgrade>
+	<Upgrade_prerequisitesSkill>建造技能({0})</Upgrade_prerequisitesSkill>
+	<Upgrade_prerequisitesSkill_int>智识技能({0})</Upgrade_prerequisitesSkill_int>
+	<Upgrade_workProgress>工作进度：{0}%</Upgrade_workProgress>
+	<Upgrade_deliveredIngredients>装载的内容：{0}</Upgrade_deliveredIngredients>
+	<Upgrade_installedUpgrades>已安装的升级：</Upgrade_installedUpgrades>
+	<Upgrade_missingMaterials>需要 {0}x {1}</Upgrade_missingMaterials>
+	<Upgrade_uneqip_message>从存储中删除以进行升级。</Upgrade_uneqip_message>
+	<Upgrade_needSkills_message>安装此升级模块需要最低建筑技能为{0}和智识技能为{1}的殖民者。</Upgrade_needSkills_message>
+
 </LanguageData>
