@@ -7,6 +7,7 @@ using Verse;
 using UnityEngine;
 using RimWorld;
 using HugsLib;
+using HarmonyLib;
 
 namespace zzLib
 {
@@ -16,10 +17,14 @@ namespace zzLib
 
         private static Setting setting = new Setting();
 
+        public readonly Harmony harmony;
+
         public Manager(ModContentPack content) : base(content)
         {
             Pack = content;
             setting = GetSettings<Setting>();
+            harmony = new Harmony("com.zhuzi.zzLib");
+            harmony.PatchAll();
         }
         public override string SettingsCategory() => Pack.Name;
         public override void DoSettingsWindowContents(Rect inRect) => setting.DoWindowContents(inRect);
