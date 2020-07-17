@@ -8,7 +8,7 @@ using RimWorld;
 
 namespace zzLib.Comp
 {
-    class CompProperties_AutoRepair:CompProperties
+    public class CompProperties_AutoRepair :CompProperties
     {
         //每点墙壁血量提高多少待机耗能
         public float RatioOfPowerToHitpoints = 0.01f;

@@ -4,7 +4,7 @@ using Verse;
 
 namespace zzLib.Comp
 {
-    class Comp_AutoRepair:ThingComp
+    public class Comp_AutoRepair :ThingComp
     {
         private CompProperties_AutoRepair Prop;
 

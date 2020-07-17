@@ -69,10 +69,12 @@
   <ItemGroup>
     <Compile Include="Comp\CompProperites_Upgrade.cs" />
     <Compile Include="Comp\CompProperties_AutoRepair.cs" />
+    <Compile Include="Comp\CompProperties_UseResearchTechBlueprint.cs" />
     <Compile Include="Comp\Comp_AutoRepair.cs" />
     <Compile Include="Comp\Comp_StatPower.cs" />
     <Compile Include="Comp\Comp_StatPowerIdle.cs" />
     <Compile Include="Comp\Comp_Upgrade.cs" />
+    <Compile Include="Comp\Comp_UseResearchTechBlueprint.cs" />
     <Compile Include="Comp\StatPart_Upgradeable.cs" />
     <Compile Include="AI\InstallUpgrade.cs" />
     <Compile Include="Manager.cs" />

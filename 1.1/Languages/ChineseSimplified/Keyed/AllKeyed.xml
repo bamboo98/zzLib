@@ -20,4 +20,7 @@
 	<Upgrade_uneqip_message>从存储中删除以进行升级。</Upgrade_uneqip_message>
 	<Upgrade_needSkills_message>安装此升级模块需要最低建筑技能为{0}和智识技能为{1}的殖民者。</Upgrade_needSkills_message>
 
+	<CannotFindAnyMoreResearchProject>已经没有可以获取的科技了</CannotFindAnyMoreResearchProject>
+	<FailedToGetResearchProject>解读失败,什么都没有得到</FailedToGetResearchProject>
+
 </LanguageData>
